@@ -28,9 +28,9 @@ How to set up your IDE:
 
 ---
 ## Repository Setup
+Once you have a directory, it's time to initialize it. When you initialize a directory (git init), it means you have chosen to do your project in this directory. You thus turn it into a repository. You must do this step first, otherwise you cannot use the other Git commands!
 
-
-
+So, let's say that you make some changes to a file in your repository, and you want to save your hard work. You do (git add) in order to signify that you want to save these changes. This adds it to the stage, so it's ready for saving. You then do (git commit -m ""), which will save those changes. The -m is the precursor for the message you type in "", which is very important. Write a commit message so you can go back to the commits and see what changes you made in the past- its kind of like a code comment!
 ---
 ## Workflow & Commands
 
