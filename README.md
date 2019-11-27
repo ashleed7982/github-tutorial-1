@@ -4,6 +4,7 @@ _by Amanda Lum_
 
 ---
 ## Git vs. GitHub
+
 ### What is Git?
 
 Git is a system which keeps track of changes to code as different versions, which becomes the history that you can go back to or view. It runs in the command line, and displays all of the directories (called folders) that hold your files.
@@ -16,7 +17,11 @@ Github is a website that allows you to keep your code in the cloud. It lets peop
 The difference between Git and Github is that Github needs to use Git, but Git can run on its own, offline. Github can track your changes more visually than Git does, and is more convenient to use to work with others.
 ---
 ## Initial Setup
-How to make a Github account:
+### How to make a Github account:
+
+This step is fairly intuitive: Go to [the website.](https://github.com/)
+
+You will see a box where you can sign up (insert image here). Just put in your email, and choose a username and password that fit the character limits. You're done!
 
 How to set up your IDE:
 
