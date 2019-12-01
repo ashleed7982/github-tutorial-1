@@ -38,3 +38,10 @@ Git status is an essential command that you should be using often. Basically, us
 
 ---
 ## Rolling Back Changes
+There are a few commands that can help you remove changes you have made to your code, just in case you make a mistake. These include git checkout --file, git reset HEAD file, git revert HEAD. 
+
+Git checkout --file means that you are undoing any changes that were made in your working directory. If you were working with another person, and edited a file that you didn't mean to, you can avoid merge conflicts by using the command. There, everything is back to normal now!
+
+Git reset HEAD file means that you are taking a file out of the stage. This can be used if you accidentally add all of the files, when you mean to add a specific one only. 
+
+Git revert HEAD helps you go back to a prior commit. Use this command if you want to restart from a certain point.
