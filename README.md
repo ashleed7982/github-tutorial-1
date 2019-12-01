@@ -24,8 +24,9 @@ This step is fairly intuitive: Go to [the website.](https://github.com/)
 You will see a box where you can sign up (insert image here). Just put in your email, and choose a username and password that fit the character limits. You're done!
 
 How to set up your IDE:
+[Just check this website for assistance!](https://github.com/hstatsep/ide50)
 
-
+By this point you have come in contact with the SSH key. But what is this? It is like a private key that, upon using, you can log in on a website. It is also used to identify different commits.
 ---
 ## Repository Setup
 Once you have a directory, it's time to initialize it. When you initialize a directory (git init), it means you have chosen to do your project in this directory. You thus turn it into a repository. You must do this step first, otherwise you cannot use the other Git commands!
