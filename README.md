@@ -21,9 +21,8 @@ The difference between Git and Github is that Github needs to use Git, but Git c
 
 This step is fairly intuitive: Go to [the website.](https://github.com/)
 
-You will see ![a box where you can sign up](boximage) . Just put in your email, and choose a username and password that fit the character limits. You're done!
+You will see [a box.](https://github.com/Amandal4012/github-tutorial/blob/master/Screen%20Shot%202019-11-27%20at%209.26.18%20AM.png) Just put in your email, and choose a username and password that fit the character limits. You're done!
 
-[boximage]: /github-learning/github-tutorial/Screen Shot 2019-11-27 at 9.26.18 AM.png
 How to set up your IDE:
 [Just check this website for assistance!](https://github.com/hstatsep/ide50)
 
