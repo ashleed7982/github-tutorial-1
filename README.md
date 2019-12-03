@@ -21,7 +21,11 @@ The difference between Git and Github is that Github needs to use Git, but Git c
 
 This step is fairly intuitive: Go to [the website.](https://github.com/)
 
+<<<<<<< HEAD
 You will see [a box.](https://raw.githubusercontent.com/Amandal4012/github-tutorial/master/Screen%20Shot%202019-11-27%20at%209.26.18%20AM.png) Just put in your email, and choose a username and password that fit the character limits. You're done!
+=======
+You will see [a box.](http://www.cs.williams.edu/~dbarowy/cs334s18/assets/tutorials/github/github-login.png) Just put in your email, and choose a username and password that fit the character limits. You're done!
+>>>>>>> 8ddb995... Swap content of Repo setup with Workflow & Commands + add to both
 
 How to set up your IDE:
 [Just check this website for assistance!](https://github.com/hstatsep/ide50)
@@ -29,13 +33,12 @@ How to set up your IDE:
 By this point you have come in contact with the SSH key. But what is this? It is like a private key that, upon using, you can log in on a website. It is also used to identify different commits.
 ---
 ## Repository Setup
-Once you have a directory, it's time to initialize it. When you initialize a directory (git init), it means you have chosen to do your project in this directory. You thus turn it into a repository. You must do this step first, otherwise you cannot use the other Git commands!
-
-So, let's say that you make some changes to a file in your repository, and you want to save your hard work. You do (git add) in order to signify that you want to save these changes. This adds it to the stage, so it's ready for saving. You then do (git commit -m ""), which will save those changes. The -m is the precursor for the message you type in "", which is very important. Write a commit message; its kind of like a comment on your code so you can go back to the commits and see what changes you made in the past.
+Once you have a directory, it's time to initialize it. When you initialize a directory (git init), it means you have chosen to do your project in this directory. You thus turn it into a repository. You must do this step first, otherwise you cannot use the other Git commands! Do git add . and git commit -m "[message]". Put a message so you can look at it and understand the changes you made to your file! Create a new repository on Github (insert image here) and use the same name from your repository in your cs50 ide to this one. Then, you need to make this new repository your remote, essentially linking the two so changes in your cs50 ide can be moved onto the remote. You can do this by using git remote add origin [url], which creates the link. After that, once you make any changes do git push -u origin master. This pushes the changes to the remote now. From now on, you can do git push, which will do the same and will be easier to type!
 ---
 ## Workflow & Commands
-Git status is an essential command that you should be using often. Basically, use this command in between the process of adding, committing and pushing a file
+Git status is an essential command that you should be using often. Basically, use this command in between the process of adding, committing and pushing a file, and it will tell you if your files are to be added, committed, and if they are already pushed, and no changes have been made since your last push.
 
+You do (git add) in order to signify that you want to save these changes. This adds it to the stage, so it's ready for saving. You then do (git commit -m ""), which will save those changes. The -m is the precursor for the message you type in "", which is very important. Write a commit message; its kind of like a comment on your code so you can go back to the commits and see what changes you made in the past. Git push means that you are officially publishing those changes to your Github remote. Your local changes are transferred to the remote, where others can easily interact with them.
 
 ---
 ## Rolling Back Changes
