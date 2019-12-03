@@ -27,7 +27,9 @@ How to set up your IDE:
 By this point you have come in contact with the SSH key. But what is this? It is like a private key that, upon using, you can log in on a website. It is also used to identify different commits.
 ---
 ## Repository Setup
+
 Once you have a directory, it's time to initialize it. When you initialize a directory (git init), it means you have chosen to do your project in this directory. You thus turn it into a repository. You must do this step first, otherwise you cannot use the other Git commands! Do git add . and git commit -m "[message]". Put a message so you can look at it and understand the changes you made to your file! Create a new repository on Github (insert image here) and use the same name from your repository in your cs50 ide to this one. Then, you need to make this new repository your remote, essentially linking the two so changes in your cs50 ide can be moved onto the remote. You can do this by using git remote add origin [url], which creates the link. After that, once you make any changes do git push -u origin master. This pushes the changes to the remote now. From now on, you can do git push, which will do the same and will be easier to type!
+
 ---
 ## Workflow & Commands
 Git status is an essential command that you should be using often. Basically, use this command in between the process of adding, committing and pushing a file, and it will tell you if your files are to be added, committed, and if they are already pushed, and no changes have been made since your last push.
@@ -36,10 +38,10 @@ You do (git add) in order to signify that you want to save these changes. This a
 
 ---
 ## Rolling Back Changes
-There are a few commands that can help you remove changes you have made to your code, just in case you make a mistake. These include git checkout --file, git reset HEAD file, git revert HEAD. 
+There are a few commands that can help you remove changes you have made to your code, just in case you make a mistake. These include git checkout --file, git reset HEAD file, git revert HEAD.
 
 Git checkout --file means that you are undoing any changes that were made in your working directory. If you were working with another person, and edited a file that you didn't mean to, you can avoid merge conflicts by using the command. There, everything is back to normal now!
 
-Git reset HEAD file means that you are taking a file out of the stage. This can be used if you accidentally add all of the files, when you mean to add a specific one only. 
+Git reset HEAD file means that you are taking a file out of the stage. This can be used if you accidentally add all of the files, when you mean to add a specific one only.
 
 Git revert HEAD helps you go back to a prior commit. Use this command if you want to restart from a certain point.
